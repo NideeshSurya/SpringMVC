@@ -23,6 +23,25 @@
             <td><input type="text" name="studentHobby"></td>
         </tr>
         <tr>
+            <td>Mobile</td>
+            <td><input type="text" name="studentMobile"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td>
+            <td><input type="text" name="studentDOB"></td>
+        </tr>
+        <tr>
+            <td>Skills</td>
+            <td>
+                <select name="studentSkills" multiple>
+                    <option value="Java Core">Java Core</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Data Analytics">Data Analytics</option>
+                    <option value="Python">Python</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
             <td><input type="submit"  value="Submit Details"></td>
         </tr>
     </table>
