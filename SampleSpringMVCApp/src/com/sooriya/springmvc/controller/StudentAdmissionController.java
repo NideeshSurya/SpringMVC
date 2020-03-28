@@ -18,8 +18,12 @@ public class StudentAdmissionController {
     @RequestMapping(value = "/submitForm.html", method = RequestMethod.POST)
     public ModelAndView submitForm(@RequestParam(value = "studentName", defaultValue = "Mr. NA") String name,
                                    @RequestParam("studentHobby") String hobby) {
+        Student student = new Student();
+        student.setStudentName(name);
+        student.setStudentHobby(hobby);
 
         ModelAndView modelAndView = new ModelAndView("SuccessPage");
+        modelAndView.addObject("student",student);
         modelAndView.addObject("details", "Details :" + name + "'s Hobby is :" + hobby);
         return  modelAndView;
     }
