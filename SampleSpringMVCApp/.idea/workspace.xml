@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2b4e56-55cc-4779-91e0-ce56479121b6" name="Default Changelist" comment="" />
+    <list default="true" id="ff2b4e56-55cc-4779-91e0-ce56479121b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp/SampleSpringMVCApp.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp/SampleSpringMVCApp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/HelloController.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="T8" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
