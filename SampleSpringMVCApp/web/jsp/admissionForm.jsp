@@ -11,6 +11,7 @@
     <title>Admission Page</title>
 </head>
 <body>
+<h1>${headerMessage}</h1>
 <form action="/SampleSpringMVCApp/submitForm.html" method="post">
     <table>
         <tr>
