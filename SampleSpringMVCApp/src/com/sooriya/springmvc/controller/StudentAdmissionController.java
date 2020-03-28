@@ -1,6 +1,7 @@
 package com.sooriya.springmvc.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,15 +17,12 @@ public class StudentAdmissionController {
     }
 
     @RequestMapping(value = "/submitForm.html", method = RequestMethod.POST)
-    public ModelAndView submitForm(@RequestParam(value = "studentName", defaultValue = "Mr. NA") String name,
-                                   @RequestParam("studentHobby") String hobby) {
-        Student student = new Student();
-        student.setStudentName(name);
-        student.setStudentHobby(hobby);
+    public ModelAndView submitForm(@ModelAttribute Student student) {
 
         ModelAndView modelAndView = new ModelAndView("SuccessPage");
         modelAndView.addObject("student",student);
-        modelAndView.addObject("details", "Details :" + name + "'s Hobby is :" + hobby);
+        modelAndView.addObject("details",
+                "Details :" + student.getStudentName() + "'s Hobby is :" + student.getStudentHobby());
         return  modelAndView;
     }
 }
