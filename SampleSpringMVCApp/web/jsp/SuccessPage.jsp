@@ -15,6 +15,29 @@
 <h1>Successfully applied with below details</h1>
 <h4>Student Name : </h4> <h2>${student.studentName}</h2>
 <h4>Student Hobby : </h4> <h2>${student.studentHobby}</h2>
+
+<table>
+    <tr>
+        <td>Student Name :</td>
+        <td>${student.studentName}</td>
+    </tr>
+    <tr>
+        <td>Hobby :</td>
+        <td>${student.studentHobby}</td>
+    </tr>
+    <tr>
+        <td>Mobile :</td>
+        <td>${student.studentMobile}</td>
+    </tr>
+    <tr>
+        <td>Date Of Birth :</td>
+        <td>${student.studentDOB}</td>
+    </tr>
+    <tr>
+        <td>Student Skills :</td>
+        <td>${student.studentSkills}</td>
+    </tr>
+</table>
 <h4>${details}</h4>
 </body>
 </html>
