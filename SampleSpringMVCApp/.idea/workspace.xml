@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2b4e56-55cc-4779-91e0-ce56479121b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp/SampleSpringMVCApp.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp/SampleSpringMVCApp.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/Student.class" afterDir="false" />
@@ -317,5 +318,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
