@@ -10,34 +10,38 @@
 <head>
     <title>Success</title>
 </head>
-<body>
+<body bgcolor="#008b8b">
 <h1>${headerMessage}</h1>
 <h1>Successfully applied with below details</h1>
-<h4>Student Name : </h4> <h2>${student.studentName}</h2>
-<h4>Student Hobby : </h4> <h2>${student.studentHobby}</h2>
-
-<table>
+<table align="center">
+    <tr><td><h4>Student Details</h4></td></tr>
     <tr>
         <td>Student Name :</td>
-        <td>${student.studentName}</td>
+        <td>${studentObj.studentName}</td>
     </tr>
     <tr>
         <td>Hobby :</td>
-        <td>${student.studentHobby}</td>
+        <td>${studentObj.studentHobby}</td>
     </tr>
     <tr>
         <td>Mobile :</td>
-        <td>${student.studentMobile}</td>
+        <td>${studentObj.studentMobile}</td>
     </tr>
     <tr>
         <td>Date Of Birth :</td>
-        <td>${student.studentDOB}</td>
+        <td>${studentObj.studentDOB}</td>
     </tr>
     <tr>
         <td>Student Skills :</td>
-        <td>${student.studentSkills}</td>
+        <td>${studentObj.studentSkills}</td>
+    </tr>
+    <tr><td><h4>Address Details</h4></td></tr>
+    <tr>
+        <td>
+            <p><b>${studentObj.studentName}</b> is from ${studentObj.studentAddress.city},
+                ${studentObj.studentAddress.state}, ${studentObj.studentAddress.country}.</p>
+        </td>
     </tr>
 </table>
-<h4>${details}</h4>
 </body>
 </html>

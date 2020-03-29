@@ -6,14 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"  %>
 <html>
 <head>
     <title>Admission Page</title>
 </head>
-<body>
+<body bgcolor="#f08080">
 <h1>${headerMessage}</h1>
+<form:errors path="studentObj.*"/>
 <form action="/SampleSpringMVCApp/submitForm.html" method="post">
-    <table>
+    <table align="center">
+        <tr><td><h4>Student details</h4></td></tr>
         <tr>
             <td>Name</td>
             <td><input type="text" name="studentName"></td>
@@ -40,6 +43,12 @@
                     <option value="Python">Python</option>
                 </select>
             </td>
+        </tr>
+        <tr><td><h4>Student address details</h4></td></tr>
+        <tr>
+            <td>Country : <input type="text" name="studentAddress.country"/></td>
+            <td>State : <input type="text" name="studentAddress.state"/></td>
+            <td>City : <input type="text" name="studentAddress.city"/></td>
         </tr>
         <tr>
             <td><input type="submit"  value="Submit Details"></td>

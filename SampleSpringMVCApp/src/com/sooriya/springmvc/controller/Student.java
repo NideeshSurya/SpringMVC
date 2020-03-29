@@ -10,6 +10,7 @@ public class Student {
     private Date studentDOB;
     private Long studentMobile;
     private ArrayList<String> studentSkills;
+    private Address studentAddress;
 
     public String getStudentName() {
         return studentName;
@@ -49,5 +50,13 @@ public class Student {
 
     public void setStudentSkills(ArrayList<String> studentSkills) {
         this.studentSkills = studentSkills;
+    }
+
+    public Address getStudentAddress() {
+        return studentAddress;
+    }
+
+    public void setStudentAddress(Address studentAddress) {
+        this.studentAddress = studentAddress;
     }
 }
