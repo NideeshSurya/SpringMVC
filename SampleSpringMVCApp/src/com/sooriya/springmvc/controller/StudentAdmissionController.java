@@ -32,6 +32,7 @@ public class StudentAdmissionController {
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy**MM**dd");
         binder.registerCustomEditor(Date.class, "studentDOB", new CustomDateEditor(dateFormat,false));
+        binder.registerCustomEditor(String.class,"studentName", new StudentNameEditor());
     }
 
     @RequestMapping(value = "/admission.html", method = RequestMethod.GET)
