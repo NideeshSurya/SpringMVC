@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff2b4e56-55cc-4779-91e0-ce56479121b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp/SampleSpringMVCApp.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp/SampleSpringMVCApp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/StudentAdmissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/StudentAdmissionController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -319,7 +317,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java</url>
-          <line>53</line>
+          <line>54</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
