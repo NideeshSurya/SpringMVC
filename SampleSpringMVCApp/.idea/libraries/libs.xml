@@ -1,14 +1,82 @@
 <component name="libraryTable">
   <library name="libs">
     <CLASSES>
-      <root url="file://$USER_HOME$/Downloads/spring-framework-5.2.5.RELEASE/libs" />
-      <root url="jar://$USER_HOME$/Downloads/commons-logging-1.2/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/classmate-1.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/hibernate-validator-5.3.4.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/hibernate-validator-annotation-processor-5.3.4.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/hibernate-validator-cdi-5.3.4.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/jackson-annotations-2.8.6.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/jackson-core-2.8.6.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/jackson-databind-2.8.6.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/javax.el-2.2.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/javax.el-api-2.2.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/jboss-logging-3.3.0.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-aop-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-aspects-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-beans-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-context-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-context-support-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-core-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-expression-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-instrument-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-instrument-tomcat-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-jdbc-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-jms-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-messaging-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-orm-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-oxm-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-test-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-tx-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-web-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-webmvc-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-webmvc-portlet-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-websocket-4.3.4.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/validation-api-1.1.0.Final.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-aop-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-aspects-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-beans-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-context-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-context-support-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-core-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-expression-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-instrument-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-instrument-tomcat-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-jdbc-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-jms-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-messaging-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-orm-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-oxm-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-test-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-tx-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-web-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-webmvc-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-webmvc-portlet-4.3.4.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-websocket-4.3.4.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
-      <root url="file://$USER_HOME$/Downloads/spring-framework-5.2.5.RELEASE/libs" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-aop-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-aspects-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-beans-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-context-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-context-support-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-core-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-expression-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-instrument-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-instrument-tomcat-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-jdbc-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-jms-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-messaging-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-orm-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-oxm-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-test-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-tx-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-web-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-webmvc-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-webmvc-portlet-4.3.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/java_libraries/lib/spring-websocket-4.3.4.RELEASE-sources.jar!/" />
     </SOURCES>
-    <jarDirectory url="file://$USER_HOME$/Downloads/spring-framework-5.2.5.RELEASE/libs" recursive="false" />
-    <jarDirectory url="file://$USER_HOME$/Downloads/spring-framework-5.2.5.RELEASE/libs" recursive="false" type="SOURCES" />
   </library>
 </component>

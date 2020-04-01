@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.validation.Valid;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -23,7 +24,7 @@ public class StudentAdmissionController {
          * this will avoid data binding of mentioned field, passes no data for the field though provided.
           */
 
-        binder.setDisallowedFields(new String[] {"studentHobby"});
+        //binder.setDisallowedFields(new String[] {"studentHobby"});
 
         /**
          * preparing a date pattern here, which in term allows the same pattern from user other wise throws exception.
@@ -43,7 +44,7 @@ public class StudentAdmissionController {
 
 
     @RequestMapping(value = "/submitForm.html", method = RequestMethod.POST)
-    public ModelAndView submitForm(@ModelAttribute("studentObj") Student student, BindingResult bindingResult) {
+    public ModelAndView submitForm(@ModelAttribute("studentObj") @Valid Student student, BindingResult bindingResult) {
 
         if (bindingResult.hasErrors()) {
 
