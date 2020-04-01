@@ -67,8 +67,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web/properties" />
+=======
+      <recent name="$PROJECT_DIR$/web/properties" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+>>>>>>> master
       <recent name="$PROJECT_DIR$/web/jsp" />
     </key>
   </component>
@@ -325,7 +330,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java</url>
+<<<<<<< HEAD
           <line>55</line>
+=======
+          <line>56</line>
+>>>>>>> master
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

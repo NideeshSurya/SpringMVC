@@ -4,6 +4,7 @@ import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -24,7 +25,8 @@ public class StudentAdmissionController {
          * this will avoid data binding of mentioned field, passes no data for the field though provided.
           */
 
-        //binder.setDisallowedFields(new String[] {"studentHobby"});
+
+      //  binder.setDisallowedFields(new String[] {"studentHobby"});
 
         /**
          * preparing a date pattern here, which in term allows the same pattern from user other wise throws exception.
