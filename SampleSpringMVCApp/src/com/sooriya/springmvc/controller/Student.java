@@ -1,11 +1,13 @@
 package com.sooriya.springmvc.controller;
 
+import javax.validation.constraints.Size;
 import java.util.ArrayList;
 import java.util.Date;
 
 public class Student {
 
     private String studentName;
+    @Size(min = 2, max = 10)
     private String studentHobby;
     private Date studentDOB;
     private Long studentMobile;
