@@ -25,7 +25,7 @@ public class StudentAdmissionController {
          * this will avoid data binding of mentioned field, passes no data for the field though provided.
           */
 
-      //  binder.setDisallowedFields(new String[] {"studentHobby"});
+        //binder.setDisallowedFields(new String[] {"studentHobby"});
 
         /**
          * preparing a date pattern here, which in term allows the same pattern from user other wise throws exception.
@@ -45,7 +45,7 @@ public class StudentAdmissionController {
 
 
     @RequestMapping(value = "/submitForm.html", method = RequestMethod.POST)
-    public ModelAndView submitForm(@ModelAttribute("studentObj") @Valid Student student, BindingResult bindingResult) {
+    public ModelAndView submitForm(@Valid @ModelAttribute("studentObj")  Student student, BindingResult bindingResult) {
 
         if (bindingResult.hasErrors()) {
 
