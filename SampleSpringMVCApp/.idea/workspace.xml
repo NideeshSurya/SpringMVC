@@ -2,11 +2,92 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SampleSpringMVCApp" />
+      <artifact name="SampleSpringMVCApp:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2b4e56-55cc-4779-91e0-ce56479121b6" name="Default Changelist" comment="">
+    <list default="true" id="eeec50ce-eed0-4845-b0b9-e3a0b82654b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SampleSpringMVCApp_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/classmate_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SampleSpringMVCApp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleSpringMVCApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SampleSpringMVCApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/HelloPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/classes/com/sooriya/springmvc/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/classes/com/sooriya/springmvc/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-aop-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-aop-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-aspects-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-aspects-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-aspects-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-beans-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-beans-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-indexer-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-indexer-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-indexer-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-support-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-support-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-context-support-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-core-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-core-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-expression-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-expression-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-instrument-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-instrument-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-instrument-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jcl-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jcl-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jms-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jms-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-jms-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-messaging-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-messaging-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-messaging-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-orm-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-orm-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-orm-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-oxm-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-oxm-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-oxm-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-test-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-test-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-test-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-tx-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-tx-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-tx-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-web-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-web-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-web-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-webflux-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-webflux-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-webflux-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-websocket-5.2.5.RELEASE-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-websocket-5.2.5.RELEASE-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/lib/spring-websocket-5.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/spring-dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SampleSpringMVCApp_war_exploded/WEB-INF/spring-dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/StudentAdmissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SampleSpringMVCApp/com/sooriya/springmvc/controller/StudentAdmissionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/properties/studentmessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/properties/studentmessages.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +96,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="T8" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
@@ -38,13 +106,12 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1ZiwyFDIrIWmONplP2W1pEx8u7f" />
+  <component name="ProjectId" id="1a2Y64OjM8OMzlO7VCWxKuOVPaQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,17 +120,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.11724138" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/properties" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/web/jsp" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,26 +167,25 @@
       </method>
     </configuration>
     <configuration name="Tomcat 7.0.59" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.59" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9090/SampleSpringMVCApp/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SampleSpringMVCApp">
+        <artifact name="SampleSpringMVCApp:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/SampleSpringMVCApp" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SampleSpringMVCApp" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SampleSpringMVCApp_2" />
         <option name="HTTP_PORT" value="9090" />
       </server-settings>
-      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
-      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
-      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58932" />
+        <option name="DEBUG_PORT" value="53465" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -176,100 +235,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SampleSpringMVCApp" />
+          <artifact name="SampleSpringMVCApp:war exploded" />
         </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_SampleSpringMVCApp" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58932" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="targets">
-            <list>
-              <WatchedTargetModelImpl>
-                <option name="name" value="CONTEXT_XML" />
-                <name>CONTEXT_XML</name>
-              </WatchedTargetModelImpl>
-              <StagingTargetModelImpl>
-                <option name="name" value="STAGING" />
-                <name>STAGING</name>
-              </StagingTargetModelImpl>
-            </list>
-          </option>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58933" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
@@ -287,13 +254,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff2b4e56-55cc-4779-91e0-ce56479121b6" name="Default Changelist" comment="" />
-      <created>1585335474282</created>
+      <changelist id="eeec50ce-eed0-4845-b0b9-e3a0b82654b7" name="Default Changelist" comment="" />
+      <created>1585934976559</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585335474282</updated>
-      <workItem from="1585335477520" duration="7550000" />
-      <workItem from="1585347112961" duration="1104000" />
+      <updated>1585934976559</updated>
+      <workItem from="1585934978069" duration="1807000" />
     </task>
     <servers />
   </component>
@@ -305,23 +271,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sooriya/springmvc/controller/StudentAdmissionController.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
